@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="fixed w-full flex items-center justify-between p-8">
+      <div class="hidden md:block"></div>
+      <nav class="hidden md:block">
+        <a href="#" class="mx-5 font-workSans text-xl text-white active"
+          >Home</a
+        >
+        <a href="#" class="mx-5 font-workSans text-xl text-white">Shop</a>
+        <a href="#" class="mx-5 font-workSans text-xl text-white">About Us</a>
+        <a href="#" class="mx-5 font-workSans text-xl text-white">Contact</a>
+      </nav>
+      <a href="#" class="block md:hidden">
+        <img src="../assets/icons/hamburger-menu.svg" alt="menu" width="30px" />
+      </a>
+      <img src="../assets/icons/chart.png" alt="chart" />
+    </div>
+    <!-- background image -->
+    <img
+      src="../assets/images/modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background 1.png"
+      alt="modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background"
+      class="w-full h-screen absolute -z-10"
+    />
+    <div
+      class="absolute w-full h-40 white_gradient z-10 bottom-0 font-workSans"
+    ></div>
+    <section
+      class="flex flex-col items-center text-white h-screen pt-52 text-center"
+    >
+      <h3 class="text-xl md:text-3xl lg:text-7xl font-bold">
+        Bring Serenity to Your Place <br />
+        With Interior Plants
+      </h3>
+      <p class="text-sm md:text-xl lg:text-xl my-5">
+        find your dream plant for you home decoration <br />
+        with us, and we will make it happen.
+      </p>
+      <div
+        class="flex h-16 w-70 lg:w-96 border border-white rounded-full bg_transparent"
+      >
+        <input
+          type="text"
+          class="h-16 bg-transparent flex-grow focus:outline-none p-5"
+          placeholder="search plant"
+        />
+        <button>
+          <img
+            src="../assets/icons/btn-search.png"
+            alt="search"
+            class="scale-90 mr-2"
+          />
+        </button>
+      </div>
+    </section>
+    <section class="h-screen"></section>
+  </body>
+</html>

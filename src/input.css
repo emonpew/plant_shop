@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Jost";
+  src: url("assets/fonts/Jost/Jost-VariableFont_wght.ttf");
+  /* Add more src lines if you have additional font file formats */
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("assets/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
+}
+
+.active {
+  background: linear-gradient(to right, #2af598, #009efd);
+  display: inline-block;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.white_gradient {
+  background: linear-gradient(to top, #fff, #ffffff00);
+}
+
+.bg_transparent {
+  background-color: #ffffff24;
+}
