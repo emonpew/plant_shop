@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: "Jost";
-  src: url("assets/fonts/Jost/Jost-VariableFont_wght.ttf");
+  src: url("../assets/fonts/Jost/Jost-VariableFont_wght.ttf");
   /* Add more src lines if you have additional font file formats */
 }
 @font-face {
   font-family: "Work Sans";
-  src: url("assets/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
+  src: url("../assets/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
 }
 
 .active {
@@ -18,6 +18,12 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+#hero_background_img {
+  background-image: url("../assets/images/modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background 1.png");
+  background-size: cover;
+  background-position: left;
 }
 
 .white_gradient {

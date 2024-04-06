@@ -566,20 +566,20 @@ video {
   bottom: 0px;
 }
 
-.bottom-1 {
-  bottom: 0.25rem;
+.-bottom-40 {
+  bottom: -10rem;
 }
 
-.-bottom-2 {
-  bottom: -0.5rem;
+.-bottom-20 {
+  bottom: -5rem;
 }
 
 .-bottom-10 {
   bottom: -2.5rem;
 }
 
-.-bottom-20 {
-  bottom: -5rem;
+.-bottom-14 {
+  bottom: -3.5rem;
 }
 
 .-z-10 {
@@ -588,14 +588,6 @@ video {
 
 .z-10 {
   z-index: 10;
-}
-
-.-z-30 {
-  z-index: -30;
-}
-
-.-z-20 {
-  z-index: -20;
 }
 
 .mx-5 {
@@ -638,10 +630,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-72 {
-  height: 18rem;
 }
 
 .w-full {
@@ -707,29 +695,14 @@ video {
   font-family: Work Sans;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -744,7 +717,7 @@ video {
 @font-face {
   font-family: "Jost";
 
-  src: url("assets/fonts/Jost/Jost-VariableFont_wght.ttf");
+  src: url("../assets/fonts/Jost/Jost-VariableFont_wght.ttf");
 
   /* Add more src lines if you have additional font file formats */
 }
@@ -752,7 +725,7 @@ video {
 @font-face {
   font-family: "Work Sans";
 
-  src: url("assets/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
+  src: url("../assets/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
 }
 
 .active {
@@ -761,6 +734,12 @@ video {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+#hero_background_img {
+  background-image: url("../assets/images/modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background 1.png");
+  background-size: cover;
+  background-position: left;
 }
 
 .white_gradient {
@@ -801,8 +780,8 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:w-96 {
-    width: 24rem;
+  .lg\:w-1\/2 {
+    width: 50%;
   }
 
   .lg\:text-2xl {
