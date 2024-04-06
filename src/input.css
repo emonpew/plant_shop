@@ -27,3 +27,7 @@
 .bg_transparent {
   background-color: #ffffff24;
 }
+
+.dark_overlay {
+  background-color: #00000080;
+}
