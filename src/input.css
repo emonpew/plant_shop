@@ -37,3 +37,20 @@
 .dark_overlay {
   background-color: #00000080;
 }
+
+#int-1 {
+  background-image: url("../assets/images/brown-sofa-wooden-table-living-room-interior-with-plant-concrete-wall.png");
+  background-position: left;
+}
+#int-2 {
+  background-image: url("../assets/images/high-angle-desk-arrangement-with-plants.png");
+  background-position: top;
+}
+#int-3 {
+  background-image: url("../assets/images/unsplash_MBsReSZ2WNM.png");
+  background-position: bottom;
+}
+
+#int-1 #int-2 #int-3 {
+  background-size: cover;
+}
